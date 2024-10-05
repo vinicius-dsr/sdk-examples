@@ -70,3 +70,58 @@ main {
 	margin-top: 10px;
 	display: none;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+	body {
+		padding: 10px;
+	}
+
+	header h1 {
+		font-size: 2rem;
+	}
+
+	header p {
+		font-size: 1rem;
+	}
+
+	.sdk-section h2 {
+		font-size: 1.5rem;
+	}
+
+	.sdk-section button {
+		padding: 8px 12px;
+		font-size: 0.9rem;
+	}
+
+	.status {
+		font-size: 0.9rem;
+	}
+
+	#video-output {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	header h1 {
+		font-size: 1.8rem;
+	}
+
+	header p {
+		font-size: 0.9rem;
+	}
+
+	.sdk-section h2 {
+		font-size: 1.2rem;
+	}
+
+	.sdk-section button {
+		padding: 6px 10px;
+		font-size: 0.8rem;
+	}
+
+	.status {
+		font-size: 0.8rem;
+	}
+}
